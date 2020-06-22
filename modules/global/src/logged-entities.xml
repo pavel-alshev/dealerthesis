@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entities xmlns="http://schemas.haulmont.com/thesis/4.0/loggedEntities.xsd">
+    <entity metaClass="autodealer$CarModel"/>
+    <entity metaClass="autodealer$Car"/>
+    <entity metaClass="autodealer$PurchaseRequest"/>
+</entities>

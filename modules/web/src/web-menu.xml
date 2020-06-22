@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application"
+          insertBefore="administration">
+    </menu>
+    <item id="autodealer$CarModel.lookup"
+          insertAfter="ts$SubscriberEdm.browse"/>
+    <item id="autodealer$Car.lookup"
+          insertAfter="df$DocKind.browse"/>
+    <item id="autodealer$Car.templateBrowse"
+          insertAfter="df$AccountDoc.templateBrowse">
+        <param name="inTemplates"
+               value="true"/>
+        <permissions>
+            <permission target="autodealer$Car:create"
+                        type="ENTITY_OP"/>
+        </permissions>
+    </item>
+    <item id="autodealer$PurchaseRequest.lookup"
+          insertAfter="df$DocKind.browse"/>
+    <item id="autodealer$PurchaseRequest.templateBrowse"
+          insertAfter="df$AccountDoc.templateBrowse">
+        <param name="inTemplates"
+               value="true"/>
+        <permissions>
+            <permission target="autodealer$PurchaseRequest:create"
+                        type="ENTITY_OP"/>
+        </permissions>
+    </item>
+</menu-config>

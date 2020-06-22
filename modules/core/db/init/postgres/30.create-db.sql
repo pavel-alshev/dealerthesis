@@ -1,0 +1,1509 @@
+insert into SEC_ROLE
+(AD_GROUP_NAME, NAME, LOC_NAME, DESCRIPTION, ROLE_TYPE, IS_DEFAULT_ROLE, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (null, 'Manager', 'Менеджер', null, 0, null, 2, '2020-06-19 09:10:23', 'admin', null, null, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$Proc.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '08e56ef3-53d8-71b1-6eea-472b2972d2cc', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'entityRestore', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '2091e2ee-1dfd-d300-a79f-e104f5383822', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'streamRegistration', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '9b5e2d7a-157d-c188-bc57-772e3e65c9ce', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'createOutgoingFormalizedDocumentWindow', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'bb5e9706-5f39-67ce-0f48-174ea5b46518', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '393e72db-0a5b-59b2-f090-4c7e55f1661a', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$AttachTypes.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '119992cf-86a8-9323-a4de-7dc8dce59022', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Currency.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'ce0fc8f4-1f1a-aab8-fe8d-86430a613dfa', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AppIntegrationLog.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '4fd1684d-a5db-2c26-5f2b-af5cdd124809', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocReceivingMethod.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '3195e499-17f9-e12d-704f-38b141b0ba98', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$ProjectGroup.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '072066fe-3639-6eea-7857-c48e8f2f72eb', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.lookup', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '7d0c0fc6-e829-6fb8-2184-9e5b4ebb192d', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'report$Report.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'afb66572-6a8a-e21e-40df-e5d2f4f323b8', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'bank_and_cur', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'e15c8a25-ffa1-1365-09f3-44f3a3cb5861', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'help', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '97b18f78-b88e-91f4-4568-fb285ea41e4b', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'monitoring', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '2df2baf6-ca8b-163a-f880-900280c824df', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$OfficeFileNomenclature.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '8398968b-309b-82c9-7f54-4e78ce902dd3', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.print', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '8d49f10a-7b38-e0fd-8d4f-ae8f3e74b501', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Task.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '0ad2ee42-ff8f-75e8-d973-3e8f7cba8e85', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Settings', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '8ed983d2-881b-71df-d3e1-1d255c72e441', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'taskman', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '6fe8fad9-8e2a-947e-fd98-017f98c7ce78', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'serverLog', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '9560afa3-0c0f-77eb-a623-69fa3a17e2d7', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$WorkCalendar.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '623fa2e9-7a51-1390-5b31-de00443b0523', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionAddComment', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '0bc605f7-3877-f95b-0cb9-22aeff936ca7', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$Design.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '2a6ec7f2-1fd8-ed24-a162-869d9b0f33d0', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$User.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'd5647eb1-6c80-3816-623e-f0f004b0027e', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$OperatorEdm.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'd82aef29-5282-23fe-f457-205ad590f6a6', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '70592da5-e46e-3e63-d9f5-ed41ade595ea', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Position.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'ef78e653-fb9b-b9f5-e888-19a5975e417d', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$UserGroup.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '38ced3ef-fdbf-015e-93c1-eb09554bad0f', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$SendingSms.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '6ff372dc-8abb-1326-8d21-331c5fce4213', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionDocWork', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '44f3673c-f5bd-0d01-7b76-45ecfc83d139', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'reassignment.form', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '4903310f-c852-868c-57d0-f242d8ad7fb9', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'administration', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'a3382ea6-792f-c628-89b8-71891df4fd0b', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.edit', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '0971263a-2726-b877-9fd2-447d11f77718', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$ReservationNumber.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'c68205d4-06bc-203a-80e7-1f5d8fd09ee1', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskPattern.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '94eea8d2-335e-da07-ef37-fc7dcd90b7e4', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$CardType.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'ab6ea125-e9a9-d70d-509c-96be01b14621', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '602aa8a5-0ff3-0a4d-0a92-64257b4a4793', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Individual.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '04a2cbea-1000-b04c-d715-a612a059323b', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'feedback', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '198be7c0-1807-c819-6e9b-7e983238960d', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.edit', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '316b6e23-9988-456e-8bfe-98c1b37c1485', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'certificationAuthoritySignatureRequestForm', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '567326be-6b5f-5eb3-7f09-86145268c63d', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Category.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '159a6c4b-7e9c-86e7-39d8-3c38311bf83b', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivistWorkplace', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'd86c3a8d-9f0a-a0a8-0e31-5165be856efe', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'newTaskGroupEditor', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '1d15558e-f5bb-b99a-87b2-b667f192ea91', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionAddAttachment', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '573f072c-2037-26ae-b774-7f66e20f65fa', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocInternal.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'b30e8707-ec0b-dfa9-cc52-c7bb2381e8ad', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$Group.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '4ce7b1ff-037d-7d6a-856d-718210f2337d', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.lookup', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '3e255d04-708a-d66f-c1fb-bc11ef4c4f13', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedSimpleDoc.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'e796ee8d-0a1b-2e2e-237e-5367f435ae70', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'meetingCreatorItem', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '3830648b-7a83-5afc-7f53-6f556999a228', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionComplete', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '64ed4904-5931-0a08-204c-f8bcde4d3a1b', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'kontragent', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '7150abc6-aca4-e6e7-205e-57a2c2a1bcf0', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskType.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '12530fd1-89ad-75da-51df-56f80f5484fd', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$ScreenHistory.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '356df3a2-299f-a95f-5fe1-cef1bf8740e5', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Priority.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '1ca091bb-e9a1-2a1a-04fe-0d3726a0924a', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sys$ScheduledTask.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '4c11f724-211d-8819-a175-5e9c2b286974', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'performanceStatistics', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '88bba02a-4e19-f737-fc38-6c1337b0c4a0', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'printDomain', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '01217a28-b117-46d0-d612-ddc63427bfb8', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'archive', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '0da530f9-4ec4-ff91-92d3-6523f0f28480', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '6c1dfcbc-b4ee-e4e2-f9f7-183cdd7ecd94', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocKind.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '15298d8d-fda9-70f4-3b6e-5e032c347834', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocOutcome.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '0f3dece0-1167-dff5-25a1-6a1f549b06ff', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'logWindow', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'e2313a0c-1780-5749-e86e-832de9d50af4', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AccountDoc.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'd1ed38cc-4ab8-fb46-2181-6473e8ab7c10', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$UserNotifiedBySms.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'fd0e7157-df5f-6b38-f25f-280b7a3d8cc0', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'transferOfficeFile', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'baf64552-c270-729e-adb8-8ed5a50f3abf', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$About', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '7e826fdc-a699-47a5-788c-38afb3f88920', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'registrationFormCreator', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '2573abed-d30a-c24a-555d-0cf72d54b2ba', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$Role.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '24b419be-de72-9ee3-f8ac-696e9a409886', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Contract.templateBrowse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'f7416a86-a394-ad37-5683-741acaaa67f7', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocIncome.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '18f979d0-33bd-9b23-7a6f-8a53ef8da7af', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.observe', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '428b47ea-f008-abe6-da00-2dc2b37d159a', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'mobileClientAdministrationWindow', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'af51808a-e3fe-f8b5-7a5a-62ee446f13e7', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docCreatorItem', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'f5101a29-d5ff-78e3-5d6b-473df7e10b3f', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AccountDoc.templateBrowse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '08f5e2a8-118b-3a6c-92cb-8f1487d70100', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'templates', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '7a3a7ae9-d959-a37f-7c10-9205f2aa3df8', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'application', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '506e2688-4a88-ff27-7463-9ae185dcb3a0', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedAccountDoc.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '9e54ed9e-999a-823f-20df-f5e77273ea93', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Employee.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'e5ae73fa-2dff-a8a4-f485-03739774363a', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'userMobileBrowse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '7d46ee02-cc52-598a-a3b3-7003d9f70660', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskGroup.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '0c0554b5-0226-03a5-d404-ea7dd54781b0', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$TypicalResolution.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '44103bcb-6512-dde7-ea4d-4b579b1328e7', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.templateBrowse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '6dda20ad-8c49-6ce1-1c33-70203c587655', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Contract.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'fff498b1-cddb-477f-1dc7-9be73ce33ce0', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocKind.edit', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, 'b01e9a0e-80e2-bfab-265e-9423bdfcfc1b', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'jmxConsole', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '8ca470b5-8a4f-b8cf-445b-2221fc012f2e', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'contractCreatorItem', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'ceb17be6-85ed-5a27-e207-96554e158c12', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$MeetingDoc.templateBrowse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'b879e301-7923-07eb-8fb3-ce5bf05a45cb', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskGroupPattern.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '2a1cb070-5b8c-0265-09d5-771bdd3aecbb', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'portalIntegration', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '4920b9b2-e97f-befe-c2e0-f640a814be6b', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'screenProfiler', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'f9727a1d-1939-140e-49be-93e337df9e17', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'assistantWebSocketStatuses', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '9f720e01-5b1b-fa54-7f21-a4e0bec7a0f4', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$UserSubstitution.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'd60cf2bb-7d96-c359-214b-fb0c8c0816f8', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$ImportDataType.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'c893a31b-4836-bdaa-3846-a682fcb232b2', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$BankRegion.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '005808e1-9bcd-250c-5cd5-c0f12ca81624', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'office', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'e4747554-ec2b-6bcb-f3df-e3bed02ba95b', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, null, 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '1c5e64f2-0e18-ed97-a1c8-7c12d9654349', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Company.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'da70086a-22db-77a4-4cf1-0897d0dc2905', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Organization.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '580c42f6-984d-4071-a1b2-d6700dfbca24', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$OfficeFile.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '407f6df1-a2fa-768c-5673-5d5b9393359e', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionMainScreen', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '98d804b0-7d5e-b847-8ef9-e8e2aafcbb76', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedContract.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '2e8f8ecb-0fca-90c8-ec18-953b33dadd5e', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$ScheduleTask.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '180a0104-3acf-c674-9dd3-68e06b9738f0', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'systemSettings', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '0acf11ef-c507-3ec6-f231-5114573d331b', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.edit', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '0817377f-07f3-c917-e17b-0ecb84f46a2b', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docCreator', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '13f7798f-b661-45ff-b2ba-ee2f250b569c', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.lookup', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:09:03', null, null, null, '2422d295-4c0f-2844-f2fb-abfa6fba0fa2', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$EdmSending.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '80f60bc3-1d70-96a6-ab8b-7ec7b135bd7c', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instruction', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '94cb6ef2-58cc-3b62-366a-aa77edf85394', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$SubscriberEdm.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'ae0800e4-b203-1777-7c21-fc5a09da24d0', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Numerator.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'e234e51a-bd35-ceb6-8f55-b3b58b32bc96', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Task.edit', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'df60c9e7-92f2-265c-97fb-12eaf3bc3a6e', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Department.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '05cce58e-37a7-5eb9-df59-f39214c853b3', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$MeetingDoc.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'ebcafd02-e996-a6c7-5c34-fc2358c600a4', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$UserSessionEntity.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '6ad43d19-5b94-ba05-fc23-a7a391740147', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$SimpleDoc.browse', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'a676a7bc-56ee-d357-ab7f-8391c826d84a', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docflow', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, '325e8bcf-e6c9-b960-3838-d2c4d88450b7', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Bank.browse', 1, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'a74bd75b-6f60-3c6e-8cc8-cdbc04ace131', '2020-06-19 09:09:03', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionTaskWork', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, '26b4f0d3-5d15-5dbe-63b7-45e408259940', '2020-06-19 09:18:48', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'accountDocCreatorItem', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 2, '2020-06-19 09:18:48', 'admin', null, null, 'b731d386-0d9f-2482-d348-49e4df423bbe', '2020-06-19 09:15:11', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'reference', 0, '2995dccb-5bac-5a97-a3aa-5bf031a28f04', 1, '2020-06-19 09:18:48', null, null, null, 'b41b18df-395a-0c8b-0b93-8e253747de1b', '2020-06-19 09:18:48', 'admin');
+
+
+insert into SEC_ROLE
+(AD_GROUP_NAME, NAME, LOC_NAME, DESCRIPTION, ROLE_TYPE, IS_DEFAULT_ROLE, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (null, 'BankOperator', 'Оператор Банка', null, 0, null, 1, '2020-06-19 09:49:31', null, null, null, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocIncome.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'd9898543-52cc-a817-7df5-ac914dc143b6', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AccountDoc.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '34651074-4c9a-ab41-2b1d-057e21700cdd', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docCreatorItem', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '9a1e0192-f553-b145-64e1-719c2047eea5', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'administration', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '9fb4eba2-041b-c1ff-b88f-4771401b1211', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$ProjectGroup.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'aff04ac6-5562-d768-55f5-be7b55df676a', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'monitoring', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '29ac613e-dcbb-7265-086f-fbf0042a71f0', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'logWindow', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'f0f720bb-8945-374d-81e7-d0cd5a8939eb', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docflow', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '58399603-b22e-aa91-e396-50014afc05e3', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$OfficeFileNomenclature.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '16bb5cf2-e686-4f14-fdab-423009f6b3bb', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedSimpleDoc.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'af69aac3-de35-bc50-e88f-439a74bf0c74', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$MeetingDoc.templateBrowse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'c578b0ab-dd0a-97d8-b2c7-a91f2222b0ed', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'assistantWebSocketStatuses', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '50aba71e-0db5-12b4-f125-5ae41d7ed01c', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocReceivingMethod.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '44de0c3d-d7e9-8cb8-66ff-59e179feae49', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.observe', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '7a2fb873-e0fc-8a74-6cea-8374dfb48be2', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.edit', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '44583827-cd2d-09a5-cf9c-d9ba9a01cfce', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskGroup.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'f8ce5557-6d21-0eb3-3da7-fb55cd84fa5d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Department.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'cce98113-3c7f-2a43-2b88-a905f078ed10', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'e49eb609-5054-d2ba-445f-ad1cd793418d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$Role.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'e02e003c-3a98-7132-30dc-be6e4e7e3451', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AppIntegrationLog.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '020b6134-1efe-8c97-062b-b976c519593a', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'archive', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '81c5ef8a-852a-a66d-82bf-4789ab3c2b29', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$SimpleDoc.templateBrowse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '8bc1e4de-d741-a545-2322-6298ffc1d94b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionMainScreen', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'dd288d5a-53fa-5c34-b258-e915902749fd', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskType.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '89747167-bc1c-f865-f260-42f793cb731a', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'bank_and_cur', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'b8146eb4-4fe0-6a57-1150-4fd32aa60a02', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AccountDoc.templateBrowse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '41ac687f-75f2-317e-aa1d-b68b63432eb2', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Contract.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '5c7c72a5-ea68-a5ff-c2dd-36de2863df13', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedContract.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '39994cdb-da6c-b17a-5857-6fab33a53f30', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedAccountDoc.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '4d7c4353-26f1-f7eb-6774-5f91399bce75', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocOutcome.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'adf45074-5f43-358f-b4f2-5933e20ca5be', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.edit', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'b79da75d-c796-d337-7ac2-357fe873cfe8', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Contract.templateBrowse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'd44ce025-78a2-6753-c536-acb54488b8d4', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.templateBrowse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '2a12e87a-695a-9a42-3c99-a03268ebb17b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskPattern.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'a15728f2-024a-d0a0-0d7d-a98b002d6bd8', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$ScreenHistory.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '7a17f857-0b6d-aac6-79ae-9a00e20e8f04', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'certificationAuthoritySignatureRequestForm', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0cc69036-3f3e-89fa-6b06-e7dbcd19a1bf', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'reference', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '3032c7ac-af28-8cb1-1849-7207b96c6571', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$AttachTypes.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '5e5dea43-522e-0537-1fd9-47558b96b54b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'feedback', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'da57c253-2602-0bb3-ab2d-5197f7c25c9a', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskGroupPattern.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '21c651b7-e365-a51c-cd92-b28fe0341e78', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'portalIntegration', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0cdeba9f-baf9-779b-73b4-010e209dba5f', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocTransferLog.edit', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '9a1be4ed-9838-2150-a127-9d3037c30916', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$ReservationNumber.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'c8691a08-391f-99bf-b101-b1f614fb0390', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$UserSubstitution.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '24b7ae87-fa9f-acef-5d51-ded5b15b4bfe', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Settings', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '39c11c9b-a4ef-39df-cd0f-e3e707bafa5a', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$Proc.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ac911f23-037d-0775-947a-9d62bc1041d7', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$User.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '1eef7167-d2a4-fa5c-c63f-5097bb9d7322', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'a5505bc5-280a-de6c-0b5e-899e680ac953', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocOfficeDataAddressee.lookup', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'fb030424-bb0e-4a43-b627-978209b00314', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocKind.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'b04cfb19-3a8d-6ee6-e83d-7ff86e27c3b2', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$UserGroup.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '8e44ac27-0ff5-39ee-ac25-55fd54d45a1b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$ImportDataType.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '83f01247-86df-b224-3a14-a9ac75eb2e6f', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionAddAttachment', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '80226c32-73e9-076f-7e4d-706e025fdc9b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocReceivingMethod.edit', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '43f2e84e-e0de-6576-e13f-e2c47bfec465', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$WorkCalendar.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'f17a8616-9499-f189-0733-ad715805314d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'serverLog', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'f83cb3d5-f9af-db9f-d3c2-29d9cd1f30a5', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$SimpleDoc.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '12739e22-e597-090c-a0eb-85b26913d1f8', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '211ffb0d-f136-b080-b05b-bd1bccea6c77', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Priority.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '51214d1d-84f1-e4e5-6846-9de3e8296edd', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Task.edit', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '94b7fd9d-4f4a-6482-d963-8b950ae59b8a', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Company.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'dfcfdea2-3958-1b36-0500-152b165d820b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.print', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '5f0c9429-e83f-7077-56cf-751b632044e7', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$SubscriberEdm.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '346289c2-0fa0-dccd-3a70-9cdf17a9fe4d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Task.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '769a311d-b4a6-f3e7-5910-ce64f6c185fb', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'mobileClientAdministrationWindow', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'b0b771ab-451e-fcda-a4fc-1dd9d81acf6b', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, null, 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '1981cca2-4672-4b7d-2d43-27f0242cb63d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'entityRestore', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '933c461a-7f86-ad2b-57b5-e144553efeca', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$TypicalResolution.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0ea532e4-5c30-5c18-edc8-8b871df5cc42', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docCreator', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ee8dea20-069c-720e-1533-50cb45003453', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'newTaskGroupEditor', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'da842745-424d-0527-ac44-18c62aefb051', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'accountDocCreatorItem', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '9805037f-3694-fab5-362c-da525a93452e', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$SendingSms.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'a31d76e4-2ed2-88d1-8ac0-5c8c5abe1e91', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'taskman', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '2a6f7801-40c4-7684-92c8-983b685f3d18', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$UserNotifiedBySms.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ca13a674-9c2f-e23c-102b-baf5f3191429', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Employee.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'f77a2a4b-eca4-aa95-eb3d-38622b1bd5df', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$OperatorEdm.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'bd3882a1-14fd-aa8b-5ca3-f36abd7738cc', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'help', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '8c290481-b518-6958-a13b-d2072dcd6f84', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'jmxConsole', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '1bc09d20-f64d-1444-0310-2b5f8a589d5f', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Currency.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'd126242c-c0cd-12b5-388b-b4399714f777', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'application', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '7b69bd10-ab07-a512-6b5b-cdc7426c0a38', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionComplete', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '815c0aea-35cd-5226-7a90-b1228447d40d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0c34e314-e321-e6c1-c4fa-8ade7b1bb358', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'transferOfficeFile', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ea34cd02-e724-3ff6-2c3a-abea48b1de2d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Numerator.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'cfd3e259-f13c-e46e-7dd6-de451f603d81', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'report$Report.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '61571ff2-12d7-4002-3ef8-e3e714e51120', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.edit', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'aa8d79b9-7e9f-a808-0f6a-1adff17219ce', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$OfficeFile.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'eda6fe6d-d66c-96bf-6adc-551f27fe078e', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionTaskWork', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0aed0f09-7259-e4af-83df-2447b7544b72', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'userMobileBrowse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '54abb3d6-cddc-e9bb-ca6d-f4452995720a', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'templates', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '6f1a5c44-d05d-c96c-6a01-e7f156a9c398', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$BankRegion.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'd0116361-c8c9-8562-8e68-22d4bb056fcc', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'systemSettings', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '5ee7f0d4-b4d2-601e-b623-6ab3bddd031d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'office', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '2284e3ab-f9f4-0a01-7f0d-b81bdf284b56', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Bank.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0ee34e0c-a725-c8e1-fb3d-afa2cd732573', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$EdmSending.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '4909a705-21e6-7abf-0fff-385250afeee2', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$MeetingDoc.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '981ad6b2-14cd-ec34-f9c4-726e43cbb788', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'performanceStatistics', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '890bc297-55bd-5674-ac31-8791b5f2d8bb', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivistWorkplace', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '501ef2c1-2617-2e7a-bfe8-f2c595851ede', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'meetingCreatorItem', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '5728c9f6-afa1-ad50-59d0-4ef695022ccf', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'registrationFormCreator', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0e3469fd-7bb7-60a5-fd33-b856b9b295c8', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.lookup', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'f3b3e57c-9904-81ea-4e1f-9355a783c02d', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$CardType.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '4c286771-ae89-a14c-42a9-92cb128d9eb6', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'kontragent', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '9c1a55ed-f6a6-757e-b590-a0a1b060abb6', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'contractCreatorItem', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ded597fa-2744-304d-84b8-149b12996f56', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Position.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '81607f21-9666-d1cb-687d-1f4b91bf2daf', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$Design.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '97a4f06d-8463-9043-0341-7d1b79f8a387', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$ScheduleTask.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '8bcdc65c-f081-aeeb-515a-e42fd392a3d3', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionAddComment', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '6d53a331-ec7d-43bd-5c98-3cdc4ec266f4', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.lookup', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'be784fcb-e36f-ce93-5ee6-8424ef87d5de', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocInternal.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '7e1f1cdf-e40c-8d4f-a583-b7bf608f85e6', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocKind.edit', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '3d07ed89-60b3-e9fb-5b13-4b844345edc2', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$About', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '24b5ce08-3d77-3985-a3fb-19c6d1759bdd', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Category.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '31440c0c-dc88-e2f5-0d14-bd27835b1980', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$UserSessionEntity.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ef800976-efdd-c76e-3ed7-451004785824', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Individual.browse', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '8121bb92-3a50-b0d0-eef9-870189316d24', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'createOutgoingFormalizedDocumentWindow', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '5518086f-0479-4205-15e5-c28cb45607ea', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'reassignment.form', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '0962b410-486e-855b-ffe6-8d8fda60d791', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionDocWork', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '12acf1c8-3d47-2013-d537-1c380c0db0ed', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.lookup', 1, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '90624481-273a-5b3c-49a3-4e19f6d7e168', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'screenProfiler', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '57520158-a7b7-c8e3-ae5e-6869df6dabe1', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sys$ScheduledTask.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '59c32c6d-483d-12f3-031a-d210435f3bd2', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$Group.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '76d20600-df6a-7164-f4c4-2ac8e8dd00fe', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'streamRegistration', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ef0d8ba8-861f-683a-845c-e60bca5d5373', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Organization.browse', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '3e2313c7-9da1-cf8c-a7af-92b06609d624', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'printDomain', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, 'ef5c80d6-2b6d-ae68-864c-c222d77aff67', '2020-06-19 09:49:31', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instruction', 0, 'd49c6bcd-7708-4bef-f2a2-fd78074a574b', 1, '2020-06-19 09:49:31', null, null, null, '6cc69dc8-565d-13c5-3418-abe03adfb94c', '2020-06-19 09:49:31', 'admin');
+
+
+insert into SEC_ROLE
+(AD_GROUP_NAME, NAME, LOC_NAME, DESCRIPTION, ROLE_TYPE, IS_DEFAULT_ROLE, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (null, 'Master', 'Мастер', null, 0, null, 1, '2020-06-19 09:51:12', null, null, null, '274c90e4-b642-0ef8-f983-d87a4ed0397a', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'assistantWebSocketStatuses', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'd3fb39bd-dc8b-cca5-4b57-1e9435c7856c', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$OfficeFile.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'f01a3e2c-1e3c-1c88-968a-59bab4911b23', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$AttachTypes.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '831b560e-811f-3cab-d16b-b3e73aa0808d', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$Proc.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '9edc5bd6-3bbd-a319-c07d-0b95234b810e', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionAddComment', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '13d0de4d-48d1-f532-28f7-b847700370c8', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'jmxConsole', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '8a1bd0c7-321c-b44b-dc9b-c487082e9dbf', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'certificationAuthoritySignatureRequestForm', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '0bfa81e5-ad75-9147-e417-fd4ca23fcf4e', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.lookup', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '3dde633b-3115-56ed-2811-c333737d5248', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'performanceStatistics', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '335a4895-4cde-e045-9bc9-d24a17a9a574', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedAccountDoc.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '3afec04b-b7d0-9986-27cc-a3853a5936f9', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$OfficeFileNomenclature.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '641eae6e-4f7a-4b88-7f19-1e5e9e8cdf42', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Bank.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '899aa92e-db1b-50ac-2ea2-7c17a6b95702', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'userMobileBrowse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '409f2dd6-2d72-0d7f-3178-7387437051c6', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocOutcome.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'af7184ac-de57-684b-6ef7-f5179fa82787', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, null, 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'fd93689e-affa-9711-480e-ef9863c9adb7', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$UserNotifiedBySms.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '695f11d4-8728-9e67-a5dc-579a5f0d529b', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Position.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '17c5042f-92f9-3247-6653-b6c1dd7b4ba7', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$CardType.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '07ebd1db-cb5b-6158-0fcd-737aaa91510f', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$MeetingDoc.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '485947f5-006a-a99b-c621-66c85318d1b7', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocReceivingMethod.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '86795b11-f39a-91f4-e624-9416801ade30', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$ProjectGroup.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '80354147-4e47-fde5-4a71-8dcd9fab16e7', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Organization.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '9394f711-7d35-b66b-7ef4-6fa5c792053a', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.templateBrowse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'b067cddd-2687-3f30-0b03-8fe1856411a8', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'reassignment.form', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '49ea9a4c-9eae-ece5-1564-930ab1253e82', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'templates', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '3b63e662-aede-a86e-2eb3-beea77d02c1d', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocInternal.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '69e9334b-12bb-8893-f1d8-fbf74d9c9f1f', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'archive', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'df6da880-56d1-34b7-b1b0-0cb923ac8409', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '07ad7a1d-003e-40b8-0be7-fe8d6820aa5b', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.edit', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '11311ce9-8805-d617-0ff0-9a46e5124940', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$BankRegion.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ae5cd660-3955-f17b-ad40-8b4c4262eb52', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AppIntegrationLog.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '6a3223aa-7271-b8e9-a85f-43ea65a0b627', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instruction', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '489b8e16-6481-b0dc-9484-2121a2ed3cab', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Priority.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '65f2ec2f-f923-8f27-24d4-f3734208aa45', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskType.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '23d0ab1e-2053-ce4a-3a11-b896ee994dfa', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Task.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '5354aad7-5aa4-f41b-e9d8-14d813999b90', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'mobileClientAdministrationWindow', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'a0ddbf67-4d20-a356-c438-5959794ab5dc', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$OperatorEdm.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '4d648954-738a-5820-4b70-609c43ff64b5', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '7ad7bb75-a80f-d3ef-3481-4b9f3617e475', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$Role.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'e8ec1423-b2e1-6910-f9ea-9ed2515f5867', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$TypicalResolution.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ed28aef5-b969-54eb-c29d-569923138a77', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionMainScreen', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'cabe4427-e133-a87a-7514-778d0ef19cfb', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'accountDocCreatorItem', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '9202a588-8206-7f15-814d-f0f780adffc9', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocIncome.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'a003e4e9-313a-b871-8f1c-a88e4375ee0e', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'bank_and_cur', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'f7c5830b-e5b1-0281-4e14-179ce4421979', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.observe', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '92e07230-e08a-d633-334f-4271400a8210', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionDocWork', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '8c05b6c5-9034-812f-f4ae-c4a3e9ea7668', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'portalIntegration', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ea4baeab-619e-6494-101b-154fc4ecf20b', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'screenProfiler', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '119957cd-5640-9294-c691-e715daa1c4ff', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$UserSessionEntity.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '35a7107a-6ab0-d6ab-3294-af71a1eb2492', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'reference', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '45ed0a9e-014e-e4b3-27a6-7813e9750a10', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'kontragent', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'd2d5dc92-5178-9afe-f4cc-d93d6ead7dfe', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskGroup.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '86f8d27a-bed6-3a3f-98bf-1fe8b8ac44f5', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$SubscriberEdm.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '733aaad4-a799-d21d-08e6-4f11bf9fb967', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Task.edit', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'c77f73ce-1a16-f545-1c27-33578c8b3e7e', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'help', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '9a73187d-b0da-9d08-49b6-1450e619f64a', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'newTaskGroupEditor', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '423927bd-71ff-c418-3f11-abaefdf35c43', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'logWindow', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'a2ee510e-8662-bd0f-404f-1b2ed023a9a1', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Individual.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ce61387f-5c6e-23a8-4654-fce3d9a1dbbe', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$ReservationNumber.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '477acedf-4d19-b944-993b-9fb85aa207a3', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Department.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '018e8c8a-f0c4-13c9-83b1-102da8adf5b8', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'feedback', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '20581d53-8b7d-4e42-4cb1-47ef9efaaf13', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskGroupPattern.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '214da1f5-c659-6a9b-ba38-41689a43f8ea', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Employee.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ae586a8d-3d70-2c56-afac-3d5ab77fa4fe', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$TaskPattern.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '7967e5f1-ebf1-b9df-fadd-99dfdfdc4ce2', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivistWorkplace', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '48bedb41-99c3-579a-525b-0840e0de60e7', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Category.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '9d38f4df-7747-043a-3e9e-d91b0db99520', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$Group.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'de46dcd0-f664-f7ad-f02c-e05c7dc9d760', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'contractCreatorItem', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'fba27c78-0fe7-48f6-02d3-9c44a86598b2', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionComplete', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '4195e9c8-86a9-1385-0410-447983825015', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'systemSettings', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '5aec2033-b7a6-2267-1087-a8b6d6527ce9', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$CarModel.lookup', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'd32fdc82-8790-4d3a-d6f5-b4111b4af03c', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'printDomain', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'bac49a13-645b-3ee6-32aa-14c6bf056695', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$SendingSms.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '2077cbb8-9f90-ac5c-98a6-32374b307134', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'report$Report.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '30009d66-7ff0-e77b-9ff8-91bdf4bf8d80', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'meetingCreatorItem', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '906ffc7c-3953-5250-ba6c-71bfdfbaa7e2', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AccountDoc.templateBrowse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'c5fd5817-f67f-cd05-3355-911bed4fdc0f', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$AccountDoc.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '016781a3-7922-1968-de1e-1c2721b1cd99', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$EdmSending.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '7f8cc4fe-9727-b511-ff04-d53a25891b6c', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$ImportDataType.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'e75af33e-2be3-f580-7b3e-baaf4b1bb72f', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$About', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ee201321-76ba-c560-c276-844a9d4a570e', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$User.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '65dd6a66-b431-986a-c547-f1cfdc9cb657', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'transferOfficeFile', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '4ca28b2c-d821-fcd2-9df6-bc2d4927d922', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.edit', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '520bca5a-6382-5697-09ab-3cca0d5ee8df', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$UserGroup.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '213c235a-8412-f980-f2be-553282ad5072', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$Design.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ea5418a4-9e7d-7381-d3f8-0d3f7eb29ec9', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionTaskWork', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '7c77a329-5ff7-f154-7914-2b3125989af2', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedContract.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'e36a1fe9-28e4-11fa-399a-08d11d15317a', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '8253a5df-162c-fad8-82a0-4bd25c09d8be', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'monitoring', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '611f0bd9-717b-a875-f6db-6768a76fa5ab', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'wf$WorkCalendar.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '959653bf-8b4d-c877-fecf-6bc7f55d00f9', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocTransferLog.edit', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'b9dc1b3c-f491-dbd7-ced2-76cbd8ed7a93', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocOfficeDataAddressee.lookup', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '1921bb22-0fed-d5d9-930a-3cf1e255ea5d', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'createOutgoingFormalizedDocumentWindow', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '09a8b4ba-ea0b-c6c8-e4c5-0eb05fbb17d8', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Company.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '15afc8fe-d15e-9ed9-59f5-4e9f62396c42', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '3419b4e2-8397-af58-a824-b63879ab094b', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Currency.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'e21b15e0-88b6-8eca-bc24-59e6d6821017', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'registrationFormCreator', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '25e2a064-dbc6-ba72-8517-dc8a259947e7', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Numerator.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '28190b6b-c047-52ba-5bcf-8d8782b024a5', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$Car.lookup', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '14ceb971-899d-8656-a3ca-fb7189986e82', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'application', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '5cc34487-d978-d6d5-00de-086a07b9d133', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'office', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'a91b3c8b-9f79-3cdd-e7b9-dad1a7a30a25', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocKind.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '07e66420-f0e0-821a-3b3b-146919b9cb0c', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docflow', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '3180d8ac-6c5a-2e53-e057-630026cb2c65', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$SimpleDoc.templateBrowse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'd4bf1fa1-aefc-4223-5bfa-75b20168473e', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sec$ScreenHistory.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '9f19ffa5-3ac7-825c-9a8a-80ee717977da', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$MeetingDoc.templateBrowse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '1ea52b8d-2ee5-3ebc-ca80-71e56b9cd569', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Doc.print', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '997b8942-e8e1-208c-60dc-2f8d9bc14020', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'ts$ArchivedSimpleDoc.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '2b970440-2df2-8eff-3906-3e7e6b3fe278', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'administration', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '09b63d6d-4e18-0053-10f9-bf94235b3740', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$ScheduleTask.browse', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'c13ea391-f5fc-c59e-f476-928bb843a19a', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Contract.templateBrowse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'ae6457f3-6b59-f808-6dff-ae073602ced2', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'auto$PurchaseRequest.edit', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '33b92e57-bea8-ecd6-e95b-8ef1c5cabb01', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$UserSubstitution.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '0f950228-05e1-b505-c0c3-9fb399bfc567', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'streamRegistration', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '80917696-5d4d-69dd-05e5-3c70251b59ea', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docCreator', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '74f1d785-0728-f749-a3cb-94e173a7306c', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'entityRestore', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'a55adaac-3f8d-0431-b671-6d8ffce62aa6', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'serverLog', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'de8ba3ca-e1a7-cc83-c6a6-0bb5e6ffb87d', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocKind.edit', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '424355d5-d083-efb3-eb2c-2aa4e227a6fe', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$Contract.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '7e0d731f-eff6-cd76-5f99-a47959f5eb7f', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'docCreatorItem', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '6080b3ab-480b-cca5-7dea-619c49539b58', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'taskman', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'd081e894-67a1-fbf9-2ac2-1d5b56499467', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'sys$ScheduledTask.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'bd58d9cb-2534-4fd5-81de-a55b5ae3aeef', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$SimpleDoc.browse', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'da282e3b-65ae-0a19-3330-02a6097e35b0', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'tm$Settings', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, '1fd62c2f-3fe5-fa78-ec5b-4cefe66d0941', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'df$DocReceivingMethod.edit', 1, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'bdb4c16b-bed9-3f5c-8f81-5019a1f7ffcb', '2020-06-19 09:51:12', 'admin');
+
+insert into SEC_PERMISSION
+(PERMISSION_TYPE, TARGET, VALUE, ROLE_ID, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, ID, CREATE_TS, CREATED_BY)
+values (10, 'instructionAddAttachment', 0, '274c90e4-b642-0ef8-f983-d87a4ed0397a', 1, '2020-06-19 09:51:12', null, null, null, 'be898a24-b6a2-ea3e-3542-233fcb1bfca9', '2020-06-19 09:51:12', 'admin');

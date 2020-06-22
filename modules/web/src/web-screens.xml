@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="/screens.xml"/>
+    <screen id="autodealer$CarModel.edit"
+            template="com/company/autodealer/web/carmodel/carmodel-edit.xml"/>
+    <screen id="autodealer$CarModel.lookup"
+            template="com/company/autodealer/web/carmodel/carmodel-browse.xml"/>
+    <screen id="autodealer$CarModel.browse"
+            template="com/company/autodealer/web/carmodel/carmodel-browse.xml"/>
+    <screen id="autodealer$Car.templateBrowse"
+            template="com/company/autodealer/web/car/car-template-browse.xml"/>
+    <screen id="autodealer$Car.edit"
+            template="com/company/autodealer/web/car/car-edit.xml"/>
+    <screen id="autodealer$Car.lookup"
+            template="com/company/autodealer/web/car/car-browse.xml"/>
+    <screen id="autodealer$Car.browse"
+            template="com/company/autodealer/web/car/car-browse.xml"/>
+    <screen id="autodealer$PurchaseRequest.templateBrowse"
+            template="com/company/autodealer/web/purchaserequest/purchaserequest-template-browse.xml"/>
+    <screen id="autodealer$PurchaseRequest.edit"
+            template="com/company/autodealer/web/purchaserequest/purchaserequest-edit.xml"/>
+    <screen id="autodealer$PurchaseRequest.lookup"
+            template="com/company/autodealer/web/purchaserequest/purchaserequest-browse.xml"/>
+    <screen id="autodealer$PurchaseRequest.browse"
+            template="com/company/autodealer/web/purchaserequest/purchaserequest-browse.xml"/>
+    <screen id="df$Company.browse"
+            template="com/company/autodealer/web/companybrowse/ext-company-browse.xml"/>
+    <screen id="df$Individual.browse"
+            template="com/company/autodealer/web/individualbrowse/ext-individual-browse.xml"/>
+</screen-config>
